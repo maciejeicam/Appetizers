@@ -11,7 +11,7 @@ final class NetworkManager {    //pobieranie danych z JSON i sprawdzanie czy wsz
     
     static let shared = NetworkManager()
     
-    static let baseURL = "http://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/"
+    static let baseURL = "https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/"
     private let appetizerURL = baseURL + "appetizers"
     
     private init() {}

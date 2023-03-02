@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Appetizer: Decodable {      //zbior danych do pobrania (JSON) do tego jak chcemy zeby wygladalo
+struct Appetizer: Decodable, Identifiable {      //zbior danych do pobrania (JSON) do tego jak chcemy zeby wygladalo
     let id: Int                     //dlatego Decodable
     let name: String
     let description: String

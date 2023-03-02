@@ -22,7 +22,7 @@ struct AppetizerListCell: View {
                     .font(.title2)
                     .fontWeight(.medium)
                 
-                Text("\(appetizer.price, specifier: "%.2f") PLN") //zaokraglenie do dwoch miejsc po przecinku
+                Text("\(appetizer.price, specifier: "%.2f") PLN") //zaokraglenie po przecinku
                     .foregroundColor(.secondary)
                         .fontWeight(.semibold)
             }
